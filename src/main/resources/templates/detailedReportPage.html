@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head xmlns:th="http://www.thymeleaf.org">
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Transaction Comparison Report</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"></link>
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet"></link>
+<style>
+.button {
+    background-color: #000066; /* Tutuka Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.1s; /* Safari */
+    transition-duration: 0.1s;
+    width: 200px;
+    overflow: hidden;
+    float: left;
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.th{
+	font-size: 12px;
+	text-align: center;
+}
+
+/* .glyphicon { cursor: pointer; } */
+
+input,
+select { width: 100%; }
+-->
+</style>
+</head>	
+<body>
+<div style="text-align: center"><img src="https://www.filepicker.io/api/file/hibz8xh4QZXOsVQ243tg/convert?" width="600" align="middle"></img></div>
+<div class="jquery-script-clear"></div>
+<!-- class="col-xs-12  col-sm-12 col-md-10 col-md-offset-1 col-lg-10  col-lg-offset-1" -->
+
+<input action="action" onclick="window.history.go(-1); return false;" type="button" class="button button2" value="Back to Home Page" />
+
+<div  style="margin-top:1px">
+<br/>
+<br/>
+  <font size="7" face="Impact" color="#000066">
+  <h1 align ="middle">Transaction Comparison Report</h1>
+  </font>
+  <div class="table-responsive"> 
+    
+    <!-- Initialization 
+                * js-dynamitable => dynamitable trigger (table)
+                -->
+    <font size="2" face="Cambria">
+    <table class="js-dynamitable     table table-bordered table table-hover" align="center">
+      <!-- table heading -->
+      <thead align="center">
+        <!-- Sorting
+                        * js-sorter-asc => ascending sorter trigger
+                        * js-sorter-desc => desending sorter trigger
+                        -->
+        <tr bgcolor="#d4d4d4" align="center">
+         <th>Status <span class="js-sorter-desc     glyphicon glyphicon-chevron-down pull-right"></span> <span class="js-sorter-asc     glyphicon glyphicon-chevron-up pull-right"></span> </th>
+          <th>Reasons <span class="js-sorter-desc     glyphicon glyphicon-chevron-down pull-right"></span> <span class="js-sorter-asc     glyphicon glyphicon-chevron-up pull-right"></span> </th>
+          <th>File Name <span class="js-sorter-desc     glyphicon glyphicon-chevron-down pull-right"></span> <span class="js-sorter-asc     glyphicon glyphicon-chevron-up pull-right"></span> </th>
+          <th>Transaction Date <span class="js-sorter-desc     glyphicon glyphicon-chevron-down pull-right"></span> <span class="js-sorter-asc     glyphicon glyphicon-chevron-up pull-right"></span> </th>
+          <th>Transaction Amount <span class="js-sorter-desc     glyphicon glyphicon-chevron-down pull-right"></span> <span class="js-sorter-asc     glyphicon glyphicon-chevron-up pull-right"></span> </th>
+          <th>Transaction Narrative <span class="js-sorter-desc     glyphicon glyphicon-chevron-down pull-right"></span> <span class="js-sorter-asc     glyphicon glyphicon-chevron-up pull-right"></span> </th>
+          <th>Transaction Description <span class="js-sorter-desc     glyphicon glyphicon-chevron-down pull-right"></span> <span class="js-sorter-asc     glyphicon glyphicon-chevron-up pull-right"></span> </th>
+          <th>TransactionID <span class="js-sorter-desc     glyphicon glyphicon-chevron-down pull-right"></span> <span class="js-sorter-asc     glyphicon glyphicon-chevron-up pull-right"></span> </th>
+          <th>Wallet Reference <span class="js-sorter-desc     glyphicon glyphicon-chevron-down pull-right"></span> <span class="js-sorter-asc     glyphicon glyphicon-chevron-up pull-right"></span> </th>
+          <th>File Name <span class="js-sorter-desc     glyphicon glyphicon-chevron-down pull-right"></span> <span class="js-sorter-asc     glyphicon glyphicon-chevron-up pull-right"></span> </th>
+          <th>Transaction Date <span class="js-sorter-desc     glyphicon glyphicon-chevron-down pull-right"></span> <span class="js-sorter-asc     glyphicon glyphicon-chevron-up pull-right"></span> </th>
+          <th>Transaction Amount <span class="js-sorter-desc     glyphicon glyphicon-chevron-down pull-right"></span> <span class="js-sorter-asc     glyphicon glyphicon-chevron-up pull-right"></span> </th>
+          <th>Transaction Narrative <span class="js-sorter-desc     glyphicon glyphicon-chevron-down pull-right"></span> <span class="js-sorter-asc     glyphicon glyphicon-chevron-up pull-right"></span> </th>
+          <th>Transaction Description <span class="js-sorter-desc     glyphicon glyphicon-chevron-down pull-right"></span> <span class="js-sorter-asc     glyphicon glyphicon-chevron-up pull-right"></span> </th>
+          <th>TransactionID <span class="js-sorter-desc     glyphicon glyphicon-chevron-down pull-right"></span> <span class="js-sorter-asc     glyphicon glyphicon-chevron-up pull-right"></span> </th>
+          <th>Wallet Reference <span class="js-sorter-desc     glyphicon glyphicon-chevron-down pull-right"></span> <span class="js-sorter-asc     glyphicon glyphicon-chevron-up pull-right"></span> </th>
+        </tr>
+        
+        <!-- Filtering
+                        * js-filter => filter trigger (input, select)
+                        -->
+        <tr>
+         <th id="filter1">
+            <select class="js-filter  form-control">
+              <option value=""></option>
+              <option value="PERFECT_MATCH">PERFECT_MATCH</option>
+              <option value="PERMISSIBLE_MATCH">PERMISSIBLE_MATCH</option>
+			  <option value="PROBABLE_MATCH">PROBABLE_MATCH</option>
+              <option value="PROBABLE_MISMATCH">PROBABLE_MISMATCH</option>
+              <option value="PERFECT_MISMATCH">PERFECT_MISMATCH</option>
+              <option value="BAD_TRANSACTION">BAD_TRANSACTION</option>
+              <option value="DUPLICATE">DUPLICATE</option>
+              <option value="UNMATCHED">UNMATCHED</option>
+            </select>
+          </th>
+          <th><input class="js-filter  form-control" type="text" value=""/></th>
+          <th><input class="js-filter  form-control" type="text" value=""/></th>
+          <th><input class="js-filter  form-control" type="text" value=""/></th>
+          <th><input class="js-filter  form-control" type="text" value=""/></th>
+          <th><input class="js-filter  form-control" type="text" value=""/></th>
+          <th><input class="js-filter  form-control" type="text" value=""/></th>
+          <th><input class="js-filter  form-control" type="text" value=""/></th>
+          <th><input class="js-filter  form-control" type="text" value=""/></th>
+          <th><input class="js-filter  form-control" type="text" value=""/></th>
+          <th><input class="js-filter  form-control" type="text" value=""/></th>
+          <th><input class="js-filter  form-control" type="text" value=""/></th>
+          <th><input class="js-filter  form-control" type="text" value=""/></th>
+		  <th><input class="js-filter  form-control" type="text" value=""/></th>
+          <th><input class="js-filter  form-control" type="text" value=""/></th>
+          <th><input class="js-filter  form-control" type="text" value=""/></th>
+        </tr>
+      </thead>
+      
+      <!-- table body -->
+      <tbody>
+ <tr th:each="transaction : ${report}">
+ 						
+ 								<td th:text="${transaction.Status}"></td>
+ 								<td th:text="${transaction.Reasons}"></td>
+								<td th:text="${transaction.File1Name}"></td>
+								<td th:text="${transaction.transactionDate1}"></td>
+								<td th:text="${transaction.transactionAmount1}"></td>
+								<td th:text="${transaction.transactionNarrative1}"><br/></td>
+								<td th:text="${transaction.transactionDescription1}"></td>
+								<td th:text="${transaction.transactionID1}"></td>
+								<td th:text="${transaction.walletReference1}"></td>
+								<td th:text="${transaction.File2Name}"></td>
+								<td th:text="${transaction.transactionDate2}"></td>
+								<td th:text="${transaction.transactionAmount2}"></td>
+								<td th:text="${transaction.transactionNarrative2}"></td>
+								<td th:text="${transaction.transactionDescription2}"></td>
+								<td th:text="${transaction.transactionID2}"></td>
+								<td th:text="${transaction.walletReference2}"></td>
+							</tr>
+      </tbody>
+    </table>
+    </font>
+  </div>
+</div>
+
+<!-- jquery --> 
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> 
+
+<!-- dynamitable --> 
+<script type="text/javascript" src="http://yourjavascript.com/32172714211/dynamitable-jquery-min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+  $(function() {
+	    $('#filter1').change(function() {
+	        var toShow = $("#data td.col1:contains('" + $(this).val() + "')");
+	        $("#data tr").not( $('#data tr').has(toShow) ).hide();
+	        toShow.each(function() {
+	            var rspan = $(this).attr('rowspan'),
+	                father = $(this).parent();
+	            if (rspan &amp;&amp; +rspan &gt; 1) {
+	                father.nextUntil(':nth-child(' + (father.index() + (+rspan) + 1) + ')').andSelf().show();
+	            } else father.show();
+	        });
+	        
+</script>
+
+</body>
+</html>

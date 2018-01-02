@@ -1,0 +1,274 @@
+1.
+
+String tutuka = "WESTMINISTER MALL GABORONE BW";
+String client = "WINCHESTER MALL GABORONE BW";
+
+
+Cosine Similarity between tutuka and Client
+The Average score is : 0.9482256034192823
+Maximum Score is : 0.9682818167765579
+
+PHONETIC MATRIX METHOD
+++++++++++++++++++++++
+
+COSINE MATRICX LENGTH5
+0.9459234862450902  0.9203579866168444  0.9223309842157771  0.8692269873603531  0.9192723907499135  
+0.9203579866168444  0.9459234862450902  0.9223309842157771  0.9203579866168444  0.8944271909999159  
+0.9153651166903976  0.9153651166903976  0.9435367655300861  0.9153651166903976  0.8641585652180932  
+0.8692269873603531  0.9203579866168444  0.9223309842157771  0.9459234862450902  0.8198915917499229  
+0.9255786675573808  0.9005630278936679  0.8767080593199743  0.8255161089025289  0.9481224447363147  
+
+The Beider Morse encodings are below: 
+TUTUKA
+++++++
+vistmQnQstirmalgYborYnYpf|vistmQnQstirmalgYborYnipf|vistmQnQstirmalgYboronYpf|vistmQnQstirmalgYboronipf|vistmQnQstirmalgabYrYnYpf|vistmQnQstirmalgabYrYnipf|vistmQnQstirmalgabYronYpf|vistmQnQstirmalgabYronipf|vistmQnQstirmalgaborYnYpf|vistmQnQstirmalgaborYnipf|vistmQnQstirmalgaboronYpf|vistmQnQstirmalgaboronipf|vistmQnQstirmalgobYrYnYpf|vistmQnQstirmalgobYrYnipf|vistmQnQstirmalgobYronYpf|vistmQnQstirmalgobYronipf|vistmQnQstirmalgoborYnYpf|vistmQnQstirmalgoborYnipf|vistmQnQstirmalgoboronYpf|vistmQnQstirmalgoboronipf|vistministirmalgaboronibw|vistministirmalgaboronipf|vistministirmalgaborunipf|vistministirmalgaburonipf|vistministirmalgaburunipf|vistministirmalgoboronibw|vistministirmalgoboronipf|vistministirmalgoborunipf|vistministirmalgoburonipf|vistministirmalgoburunipf|vistministirmolgaboronibw|vistministirmolgaboronipf|vistministirmolgaborunipf|vistministirmolgaburonipf|vistministirmolgaburunipf|vistministirmolgoboronibw|vistministirmolgoboronipf|vistministirmolgoborunipf|vistministirmolgoburonipf|vistministirmolgoburunipf|wistministirmalgaboronibw|wistministirmalgaboronipf|wistministirmalgoboronibw|wistministirmalgoboronipf|wistministirmolgaboronibw|wistministirmolgaboronipf|wistministirmolgoboronibw|wistministirmolgoboronipf
+CLIENT
+++++++
+vQnxistirmalgYborYnYpf|vQnxistirmalgYborYnipf|vQnxistirmalgYboronYpf|vQnxistirmalgYboronipf|vQnxistirmalgabYrYnYpf|vQnxistirmalgabYrYnipf|vQnxistirmalgabYronYpf|vQnxistirmalgabYronipf|vQnxistirmalgaborYnYpf|vQnxistirmalgaborYnipf|vQnxistirmalgaboronYpf|vQnxistirmalgaboronipf|vQnxistirmalgobYrYnYpf|vQnxistirmalgobYrYnipf|vQnxistirmalgobYronYpf|vQnxistirmalgobYronipf|vQnxistirmalgoborYnYpf|vQnxistirmalgoborYnipf|vQnxistirmalgoboronYpf|vQnxistirmalgoboronipf|vinxistirmalgaboronibw|vinxistirmalgaboronipf|vinxistirmalgaborunipf|vinxistirmalgaburonipf|vinxistirmalgaburunipf|vinxistirmalgoboronibw|vinxistirmalgoboronipf|vinxistirmalgoborunipf|vinxistirmalgoburonipf|vinxistirmalgoburunipf|vinxistirmolgaboronibw|vinxistirmolgaboronipf|vinxistirmolgaborunipf|vinxistirmolgaburonipf|vinxistirmolgaburunipf|vinxistirmolgoboronibw|vinxistirmolgoboronipf|vinxistirmolgoborunipf|vinxistirmolgoburonipf|vinxistirmolgoburunipf|vnkistirmalgaboronipf|vnkistirmalgoboronipf|vnkistirmolgaboronipf|vnkistirmolgoboronipf|vntsistirmalgaboronibw|vntsistirmalgaboronipf|vntsistirmalgoboronibw|vntsistirmalgoboronipf|vntsistirmolgaboronibw|vntsistirmolgaboronipf|vntsistirmolgoboronibw|vntsistirmolgoboronipf|vnzistirmalgaboronipf|vnzistirmalgoboronipf|vnzistirmolgaboronipf|vnzistirmolgoboronipf|wintsistirmalgaboronibw|wintsistirmalgaboronipf|wintsistirmalgoboronibw|wintsistirmalgoboronipf|wintsistirmolgaboronibw|wintsistirmolgaboronipf|wintsistirmolgoboronibw|wintsistirmolgoboronipf|winxistirmalgaboronibw|winxistirmalgaboronipf|winxistirmalgoboronibw|winxistirmalgoboronipf|winxistirmolgaboronibw|winxistirmolgaboronipf|winxistirmolgoboronibw|winxistirmolgoboronipf
+
+WITHOUT VOWELS
+---------------
+The Average score is : 0.8127401455236049
+
+
+
+
+2.
+
+String tutuka = "NORTHGATE MALL GABORONE BW";
+String client = "NRTHGT MALL GABORONE BW";
+	
+Cosine Similarity between tutuka and Client
+The Average score is : 0.9404566486705993
+Maximum Score is : 0.9568580574191401
+
+PHONETIC MATRIX METHOD
+++++++++++++++++++++++
+
+COSINE MATRICX LENGTH5
+0.9320546490018  0.9396184772996342  0.9349975263177835  0.9060606745389329  0.9004503377814964  
+0.8624833627499189  0.9315885051121783  0.8950412845779245  0.9315885051121783  0.8332380897952962  
+0.86991767240168  0.9060606745389329  0.9349975263177835  0.9396184772996342  0.8104053040033468  
+0.7767122075015  0.8725028717782317  0.8705149382958675  0.9396184772996342  0.7203602702251971  
+0.9078412990032035  0.9152086306448589  0.8793040102298588  0.8498365855987975  0.9355285539274978  
+
+
+The Beider Morse encodings are below: 
+TUTUKA
+++++++
+nordgatimalgYborYnYpf|nordgatimalgYborYnipf|nordgatimalgYboronYpf|nordgatimalgYboronipf|nordgatimalgabYrYnYpf|nordgatimalgabYrYnipf|nordgatimalgabYronYpf|nordgatimalgabYronipf|nordgatimalgaborYnYpf|nordgatimalgaborYnipf|nordgatimalgaboronYpf|nordgatimalgaboronibw|nordgatimalgaboronipf|nordgatimalgaborunipf|nordgatimalgaburonipf|nordgatimalgaburunipf|nordgatimalgobYrYnYpf|nordgatimalgobYrYnipf|nordgatimalgobYronYpf|nordgatimalgobYronipf|nordgatimalgoborYnYpf|nordgatimalgoborYnipf|nordgatimalgoboronYpf|nordgatimalgoboronibw|nordgatimalgoboronipf|nordgatimalgoborunipf|nordgatimalgoburonipf|nordgatimalgoburunipf|nordgatimolgaboronibw|nordgatimolgaboronipf|nordgatimolgaborunipf|nordgatimolgaburonipf|nordgatimolgaburunipf|nordgatimolgoboronibw|nordgatimolgoboronipf|nordgatimolgoborunipf|nordgatimolgoburonipf|nordgatimolgoburunipf|nordgotimalgaboronibw|nordgotimalgaboronipf|nordgotimalgaborunipf|nordgotimalgaburonipf|nordgotimalgaburunipf|nordgotimalgoboronibw|nordgotimalgoboronipf|nordgotimalgoborunipf|nordgotimalgoburonipf|nordgotimolgaboronibw|nordgotimolgaboronipf|nordgotimolgaborunipf|nordgotimolgaburonipf|nordgotimolgoboronibw|nordgotimolgoboronipf|nordgotimolgoborunipf|nordgotimolgoburonipf|nurdgatimalgaboronipf|nurdgatimalgaborunipf|nurdgatimalgaburonipf|nurdgatimalgoboronipf|nurdgatimalgoborunipf|nurdgatimalgoburonipf|nurdgatimolgaboronipf|nurdgatimolgoboronipf|nurdgotimalgaboronipf|nurdgotimalgoboronipf|nurdgotimolgaboronipf|nurdgotimolgoboronipf
+CLIENT
+++++++
+nrdktmalgYborYnYpf|nrdktmalgYborYnipf|nrdktmalgYboronYpf|nrdktmalgYboronipf|nrdktmalgabYrYnYpf|nrdktmalgabYrYnipf|nrdktmalgabYronYpf|nrdktmalgabYronipf|nrdktmalgaborYnYpf|nrdktmalgaborYnipf|nrdktmalgaboronYpf|nrdktmalgaboronibw|nrdktmalgaboronipf|nrdktmalgaborunipf|nrdktmalgaburonipf|nrdktmalgaburunipf|nrdktmalgobYrYnYpf|nrdktmalgobYrYnipf|nrdktmalgobYronYpf|nrdktmalgobYronipf|nrdktmalgoborYnYpf|nrdktmalgoborYnipf|nrdktmalgoboronYpf|nrdktmalgoboronibw|nrdktmalgoboronipf|nrdktmalgoborunipf|nrdktmalgoburonipf|nrdktmalgoburunipf|nrdktmolgaboronibw|nrdktmolgaboronipf|nrdktmolgaborunipf|nrdktmolgaburonipf|nrdktmolgaburunipf|nrdktmolgoboronibw|nrdktmolgoboronipf|nrdktmolgoborunipf|nrdktmolgoburonipf|nrdktmolgoburunipf
+
+WITHOUT VOWELS
+---------------
+The Average score is : 0.9999999999999999
+
+
+
+
+
+3.
+
+String tutuka = "WESTMINISTER MALL SOMANY BW";
+String client = "WESTMINISTER MALL SOMALIA BW";
+
+Cosine Similarity between tutuka and Client
+The Average score is : 0.889187006634933
+Maximum Score is : 0.9419010099338676
+
+PHONETIC MATRIX METHOD
+++++++++++++++++++++++
+
+COSINE MATRICX LENGTH5
+0.9079593845004517  0.9288347410476049  0.926829268292683  0.9288347410476049  0.9079593845004517  
+0.8666666666666666  0.8865926413116155  0.8846783746414657  0.8865926413116155  0.8666666666666666  
+0.8846783746414657  0.8812021902246507  0.926829268292683  0.8812021902246507  0.8381163549234939  
+0.8444444444444443  0.8411263520135839  0.8846783746414657  0.8411263520135839  0.7999999999999998  
+0.9079593845004517  0.9288347410476049  0.9024390243902439  0.9288347410476049  0.9079593845004517  
+The Beider Morse encodings are below: 
+TUTUKA
+++++++
+vYstministYrmalzomanQbf|vYstministYrmalzomanibf|vYstministYrmalzomonQbf|vYstministYrmalzomonibf|vYstministYrmalzumanQbf|vYstministYrmalzumanibf|vYstministYrmalzumonQbf|vYstministYrmalzumonibf|vYstministYrmolzomanQbf|vYstministYrmolzomanibf|vYstministYrmolzomonQbf|vYstministYrmolzomonibf|vYstministYrmolzumanQbf|vYstministYrmolzumanibf|vYstministYrmolzumonQbf|vYstministYrmolzumonibf|vYstministirmalzomanQbf|vYstministirmalzomanibf|vYstministirmalzomonQbf|vYstministirmalzomonibf|vistministYrmalzomanQbf|vistministYrmalzomanibf|vistministYrmalzomonQbf|vistministYrmalzomonibf|vistministYrmalzumanQbf|vistministYrmalzumanibf|vistministYrmalzumonQbf|vistministYrmalzumonibf|vistministYrmolzomanQbf|vistministYrmolzomanibf|vistministYrmolzomonQbf|vistministYrmolzomonibf|vistministYrmolzumanQbf|vistministYrmolzumanibf|vistministYrmolzumonQbf|vistministYrmolzumonibf|vistministirmalzomanQbf|vistministirmalzomanibf|vistministirmalzomonQbf|vistministirmalzomonibf
+CLIENT
+++++++
+vistmQnQstirmalzYmYlYpf|vistmQnQstirmalzYmYlapf|vistmQnQstirmalzYmYlopf|vistmQnQstirmalzYmalYpf|vistmQnQstirmalzYmalapf|vistmQnQstirmalzYmalopf|vistmQnQstirmalzYmolYpf|vistmQnQstirmalzYmolapf|vistmQnQstirmalzYmolopf|vistmQnQstirmalzomYlYpf|vistmQnQstirmalzomYlapf|vistmQnQstirmalzomYlopf|vistmQnQstirmalzomalYpf|vistmQnQstirmalzomalapf|vistmQnQstirmalzomalopf|vistmQnQstirmalzomolYpf|vistmQnQstirmalzomolapf|vistmQnQstirmalzomolopf|vistmQnQstirmolzomalapf|vistmQnQstirmolzomalopf|vistministirmalzomalabw|vistministirmalzomalapf|vistministirmalzomalobw|vistministirmalzomalopf|vistministirmalzomolabw|vistministirmalzomolapf|vistministirmalzomolobw|vistministirmalzomolopf|vistministirmalzumalapf|vistministirmalzumalopf|vistministirmalzumolapf|vistministirmalzumolopf|vistministirmolzomalabw|vistministirmolzomalapf|vistministirmolzomalobw|vistministirmolzomalopf|vistministirmolzomolabw|vistministirmolzomolapf|vistministirmolzomolobw|vistministirmolzomolopf|vistministirmolzumalapf|vistministirmolzumalopf|vistministirmolzumolapf|vistministirmolzumolopf|wistministirmalzomalabw|wistministirmalzomalapf|wistministirmalzomalobw|wistministirmalzomalopf|wistministirmalzomolabw|wistministirmalzomolapf|wistministirmalzomolobw|wistministirmalzomolopf|wistministirmolzomalabw|wistministirmolzomalapf|wistministirmolzomalobw|wistministirmolzomalopf|wistministirmolzomolabw|wistministirmolzomolapf|wistministirmolzomolobw|wistministirmolzomolopf
+
+WITHOUT VOWELS
+---------------
+The Average score is : 0.9144663047461463
+
+
+
+
+
+4.
+
+String tutuka = "WESTMINISTER MALL SOMANY BW";
+String client = "WESTMINISTER ABBEY SOMALIA BW";
+	
+Cosine Similarity between tutuka and Client
+The Average score is : 0.851026568626331
+Maximum Score is : 0.9245748805139686
+
+The Beider Morse encodings are below: 
+TUTUKA
+++++++
+vYstministYrmalzomanQbf|vYstministYrmalzomanibf|vYstministYrmalzomonQbf|vYstministYrmalzomonibf|vYstministYrmalzumanQbf|vYstministYrmalzumanibf|vYstministYrmalzumonQbf|vYstministYrmalzumonibf|vYstministYrmolzomanQbf|vYstministYrmolzomanibf|vYstministYrmolzomonQbf|vYstministYrmolzomonibf|vYstministYrmolzumanQbf|vYstministYrmolzumanibf|vYstministYrmolzumonQbf|vYstministYrmolzumonibf|vYstministirmalzomanQbf|vYstministirmalzomanibf|vYstministirmalzomonQbf|vYstministirmalzomonibf|vistministYrmalzomanQbf|vistministYrmalzomanibf|vistministYrmalzomonQbf|vistministYrmalzomonibf|vistministYrmalzumanQbf|vistministYrmalzumanibf|vistministYrmalzumonQbf|vistministYrmalzumonibf|vistministYrmolzomanQbf|vistministYrmolzomanibf|vistministYrmolzomonQbf|vistministYrmolzomonibf|vistministYrmolzumanQbf|vistministYrmolzumanibf|vistministYrmolzumonQbf|vistministYrmolzumonibf|vistministirmalzomanQbf|vistministirmalzomanibf|vistministirmalzomonQbf|vistministirmalzomonibf
+CLIENT
+++++++
+vistministirabbDsomalabw|vistministirabbDsomalapf|vistministirabbDsomalobw|vistministirabbDsomalopf|vistministirabbDsomolabw|vistministirabbDsomolapf|vistministirabbDsomolobw|vistministirabbDsomolopf|vistministirabbDsumalapf|vistministirabbDsumalopf|vistministirabbDsumolapf|vistministirabbDsumolopf|vistministirabbasomalabw|vistministirabbasomalapf|vistministirabbasomalobw|vistministirabbasomalopf|vistministirabbasomolabw|vistministirabbasomolapf|vistministirabbasomolobw|vistministirabbasomolopf|vistministirabbasumalapf|vistministirabbasumalopf|vistministirabbasumolapf|vistministirabbasumolopf|vistministirabbisomalabw|vistministirabbisomalapf|vistministirabbisomalobw|vistministirabbisomalopf|vistministirabbisomolabw|vistministirabbisomolapf|vistministirabbisomolobw|vistministirabbisomolopf|vistministirabbisumalapf|vistministirabbisumalopf|vistministirabbisumolapf|vistministirabbisumolopf|vistministirobbDsomalabw|vistministirobbDsomalapf|vistministirobbDsomalobw|vistministirobbDsomalopf|vistministirobbDsomolabw|vistministirobbDsomolapf|vistministirobbDsomolobw|vistministirobbDsomolopf|vistministirobbasomalabw|vistministirobbasomalapf|vistministirobbasomalobw|vistministirobbasomalopf|vistministirobbasomolabw|vistministirobbasomolapf|vistministirobbasomolobw|vistministirobbasomolopf|vistministirobbisomalabw|vistministirobbisomalapf|vistministirobbisomalobw|vistministirobbisomalopf|vistministirobbisomolabw|vistministirobbisomolapf|vistministirobbisomolobw|vistministirobbisomolopf|wistministirabbDsomalabw|wistministirabbDsomalapf|wistministirabbDsomalobw|wistministirabbDsomalopf|wistministirabbDsomolabw|wistministirabbDsomolapf|wistministirabbDsomolobw|wistministirabbDsomolopf|wistministirabbasomalabw|wistministirabbasomalapf|wistministirabbasomalobw|wistministirabbasomalopf|wistministirabbasomolabw|wistministirabbasomolapf|wistministirabbasomolobw|wistministirabbasomolopf|wistministirabbisomalabw|wistministirabbisomalapf|wistministirabbisomalobw|wistministirabbisomalopf|wistministirabbisomolabw|wistministirabbisomolapf|wistministirabbisomolobw|wistministirabbisomolopf|wistministirobbDsomalabw|wistministirobbDsomalapf|wistministirobbDsomalobw|wistministirobbDsomalopf|wistministirobbDsomolabw|wistministirobbDsomolapf|wistministirobbDsomolobw|wistministirobbDsomolopf|wistministirobbasomalabw|wistministirobbasomalapf|wistministirobbasomalobw|wistministirobbasomalopf|wistministirobbasomolabw|wistministirobbasomolapf|wistministirobbasomolobw|wistministirobbasomolopf|wistministirobbisomalabw|wistministirobbisomalapf|wistministirobbisomalobw|wistministirobbisomalopf|wistministirobbisomolabw|wistministirobbisomolapf|wistministirobbisomolobw|wistministirobbisomolopf
+
+
+PHONETIC MATRIX METHOD
+++++++++++++++++++++++
+
+COSINE MATRICX LENGTH5
+0.7997581636151854  0.8288497269823397  0.7930446775731982  0.822981355465999  0.7930446775731982  
+0.8416823146377416  0.8722988878785979  0.8366600265340755  0.8682431421244593  0.8366600265340755  
+0.7587449244554323  0.7863446127781172  0.7930446775731982  0.822981355465999  0.7930446775731982  
+0.802534300003428  0.8317268465819189  0.8366600265340755  0.8682431421244593  0.8366600265340755  
+0.7792515440353088  0.8075971698802284  0.751305484016714  0.7796665472835781  0.751305484016714 
+
+WITHOUT VOWELS
+---------------
+The Average score is : 0.8795140037310438
+
+
+
+
+
+5.
+
+String tutuka = "MALL SOMANY BW";
+String client = "ABBEY SOMALIA BW";
+		
+Cosine Similarity between tutuka and Client
+The Average score is : 0.6096056008812446
+Maximum Score is : 0.7505553499465134
+
+The Beider Morse encodings are below: 
+TUTUKA
+++++++
+malzomanQbf|malzomanibf|malzomonQbf|malzomonibf|malzumanQbf|malzumanibf|malzumonQbf|malzumonibf|molzomanQbf|molzomanibf|molzomonQbf|molzomonibf|molzumanQbf|molzumanibf|molzumonQbf|molzumonibf
+CLIENT
+++++++
+abbDsomalabw|abbDsomalapf|abbDsomalobw|abbDsomalopf|abbDsomolabw|abbDsomolapf|abbDsomolobw|abbDsomolopf|abbDsumalapf|abbDsumalopf|abbDsumolapf|abbDsumolopf|abbasomalabw|abbasomalapf|abbasomalobw|abbasomalopf|abbasomolabw|abbasomolapf|abbasomolobw|abbasomolopf|abbasumalapf|abbasumalopf|abbasumolapf|abbasumolopf|abbisomalabw|abbisomalapf|abbisomalobw|abbisomalopf|abbisomolabw|abbisomolapf|abbisomolobw|abbisomolopf|abbisumalapf|abbisumalopf|abbisumolapf|abbisumolopf|obbDsomalabw|obbDsomalapf|obbDsomalobw|obbDsomalopf|obbDsomolabw|obbDsomolapf|obbDsomolobw|obbDsomolopf|obbasomalabw|obbasomalapf|obbasomalobw|obbasomalopf|obbasomolabw|obbasomolapf|obbasomolobw|obbasomolopf|obbisomalabw|obbisomalapf|obbisomalobw|obbisomalopf|obbisomolabw|obbisomolapf|obbisomolobw|obbisomolopf
+
+
+
+PHONETIC MATRIX METHOD
+++++++++++++++++++++++
+
+COSINE MATRICX LENGTH5
+0.6851601597031488  0.7505553499465134  0.6605782590758162  0.7302967433402215  0.6605782590758162  
+0.6851601597031488  0.7505553499465134  0.6605782590758162  0.7302967433402215  0.6605782590758162  
+0.5797509043642028  0.6350852961085883  0.6605782590758162  0.7302967433402215  0.6605782590758162  
+0.5797509043642028  0.6350852961085883  0.6605782590758162  0.7302967433402215  0.6605782590758162  
+0.6324555320336759  0.6928203230275508  0.5504818825631802  0.6085806194501846  0.5504818825631802  
+
+WITHOUT VOWELS
+---------------
+The Average score is : 0.6958039891549808
+
+
+
+
+
+6.
+
+String tutuka = "MALL SOMALIA BW";
+String client = "ABBEY SOMALIA BW";
+		
+Cosine Similarity between tutuka and Client
+The Average score is : 0.6235578884408247
+Maximum Score is : 0.8131249357707346
+
+The Beider Morse encodings are below: 
+TUTUKA
+++++++
+malzYmYlYpf|malzYmYlapf|malzYmYlopf|malzYmalYpf|malzYmalapf|malzYmalopf|malzYmolYpf|malzYmolapf|malzYmolopf|malzomYlYpf|malzomYlapf|malzomYlopf|malzomalYpf|malzomalabw|malzomalapf|malzomalobw|malzomalopf|malzomolYpf|malzomolabw|malzomolapf|malzomolobw|malzomolopf|malzumalapf|malzumalopf|malzumolapf|malzumolopf|molzomalabw|molzomalapf|molzomalobw|molzomalopf|molzomolabw|molzomolapf|molzomolobw|molzomolopf|molzumalapf|molzumalopf|molzumolapf|molzumolopf
+CLIENT
+++++++
+abbDsomalabw|abbDsomalapf|abbDsomalobw|abbDsomalopf|abbDsomolabw|abbDsomolapf|abbDsomolobw|abbDsomolopf|abbDsumalapf|abbDsumalopf|abbDsumolapf|abbDsumolopf|abbasomalabw|abbasomalapf|abbasomalobw|abbasomalopf|abbasomolabw|abbasomolapf|abbasomolobw|abbasomolopf|abbasumalapf|abbasumalopf|abbasumolapf|abbasumolopf|abbisomalabw|abbisomalapf|abbisomalobw|abbisomalopf|abbisomolabw|abbisomolapf|abbisomolobw|abbisomolopf|abbisumalapf|abbisumalopf|abbisumolapf|abbisumolopf|obbDsomalabw|obbDsomalapf|obbDsomalobw|obbDsomalopf|obbDsomolabw|obbDsomolapf|obbDsomolobw|obbDsomolopf|obbasomalabw|obbasomalapf|obbasomalobw|obbasomalopf|obbasomolabw|obbasomolapf|obbasomolobw|obbasomolopf|obbisomalabw|obbisomalapf|obbisomalobw|obbisomalopf|obbisomolabw|obbisomolapf|obbisomolobw|obbisomolopf
+
+
+
+PHONETIC MATRIX METHOD
+++++++++++++++++++++++
+
+COSINE MATRICX LENGTH5
+0.3118047822311618  0.43915503282683993  0.27914526311954124  0.4114755998989118  0.27914526311954124  
+0.468292905790847  0.6155870112510924  0.3912927904356147  0.5407380704358752  0.3912927904356147  
+0.39605901719066977  0.5423261445466404  0.4136701519960153  0.5716619504750294  0.4136701519960153  
+0.468292905790847  0.6155870112510924  0.3912927904356147  0.5407380704358752  0.3912927904356147  
+0.5790660241435862  0.7319250547113999  0.4652421051992354  0.6172133998483678  0.4652421051992354 
+
+WITHOUT VOWELS
+---------------
+The Average score is : 0.6963322400473784
+
+
+
+
+
+
+7.
+
+String tutuka = "MALL SOMALIA BW";
+String client = "MALI SOMALIA BW";
+
+Cosine Similarity between tutuka and Client
+The Average score is : 0.8376473698595038
+Maximum Score is : 0.9307578419910345
+
+The Beider Morse encodings are below: 
+TUTUKA
+++++++
+malzYmYlYpf|malzYmYlapf|malzYmYlopf|malzYmalYpf|malzYmalapf|malzYmalopf|malzYmolYpf|malzYmolapf|malzYmolopf|malzomYlYpf|malzomYlapf|malzomYlopf|malzomalYpf|malzomalabw|malzomalapf|malzomalobw|malzomalopf|malzomolYpf|malzomolabw|malzomolapf|malzomolobw|malzomolopf|malzumalapf|malzumalopf|malzumolapf|malzumolopf|molzomalabw|molzomalapf|molzomalobw|molzomalopf|molzomolabw|molzomolapf|molzomolobw|molzomolopf|molzumalapf|molzumalopf|molzumolapf|molzumolopf
+CLIENT
+++++++
+malQsYmYlYpf|malQsYmYlapf|malQsYmYlopf|malQsYmalYpf|malQsYmalapf|malQsYmalopf|malQsYmolYpf|malQsYmolapf|malQsYmolopf|malQsomYlYpf|malQsomYlapf|malQsomYlopf|malQsomalYpf|malQsomalapf|malQsomalopf|malQsomolYpf|malQsomolapf|malQsomolopf|malQzYmYlYpf|malQzYmYlapf|malQzYmYlopf|malQzYmalYpf|malQzYmalapf|malQzYmalopf|malQzYmolYpf|malQzYmolapf|malQzYmolopf|malQzomYlYpf|malQzomYlapf|malQzomYlopf|malQzomalYpf|malQzomalapf|malQzomalopf|malQzomolYpf|malQzomolapf|malQzomolopf|malisomalabw|malisomalapf|malisomalobw|malisomalopf|malisomolabw|malisomolapf|malisomolobw|malisomolopf|malisumalapf|malisumalopf|malisumolapf|malisumolopf|malizomalapf|malizomalopf|molisomalabw|molisomalapf|molisomalobw|molisomalopf|molisomolabw|molisomolapf|molisomolobw|molisomolopf|molisumalapf|molisumalopf|molisumolapf|molisumolopf
+
+
+
+PHONETIC MATRIX METHOD
+++++++++++++++++++++++
+
+COSINE MATRICX LENGTH5
+0.9304842103984708  0.8783100656536799  0.8743856497851876  0.8783100656536799  0.7443873683187767  
+0.8804087784801331  0.9233805168766386  0.8651809126974003  0.9233805168766386  0.8804087784801331  
+0.8790490729915326  0.8677218312746247  0.9146591207600472  0.8677218312746247  0.7756315349925288  
+0.8804087784801331  0.9233805168766386  0.8651809126974003  0.9233805168766386  0.8804087784801331  
+0.7443873683187767  0.8783100656536799  0.7715167498104597  0.8783100656536799  0.9304842103984708  
+
+WITHOUT VOWELS
+---------------
+The Average score is : 1.0
+
+
+
+
+8.
+
+String tutuka = "Choppies Store P102220    Lobatse       BW";
+String client = "CHPS STR P102220    LBTZ BW";
+
+Cosine Similarity between tutuka and Client
+The Average score is : 0.6405019914127777
+Maximum Score is : 0.7171371656006361
+
+The Beider Morse encodings are below: 
+TUTUKA
+++++++
+tsopiistoriplobatsipf|tsopiistoriplobotsipf|xopQstoriplobatsibw|xopQstoriplobatsipf|xopQstoriplobotsibw|xopQstoriplobotsipf|xopiistorYplYbadzYpf|xopiistorYplYbadzipf|xopiistorYplYbatsYpf|xopiistorYplYbatsipf|xopiistorYplobYdzYpf|xopiistorYplobYdzipf|xopiistorYplobYtsYpf|xopiistorYplobYtsipf|xopiistorYplobadzYpf|xopiistorYplobadzipf|xopiistorYplobatsYpf|xopiistorYplobatsipf|xopiistorYplobodzYpf|xopiistorYplobodzipf|xopiistorYplobotsYpf|xopiistorYplobotsipf|xopiistoriplYbYdzYpf|xopiistoriplYbYdzipf|xopiistoriplYbYtsYpf|xopiistoriplYbYtsipf|xopiistoriplYbadzYpf|xopiistoriplYbadzipf|xopiistoriplYbatsYpf|xopiistoriplYbatsipf|xopiistoriplYbodzYpf|xopiistoriplYbodzipf|xopiistoriplYbotsYpf|xopiistoriplYbotsipf|xopiistoriplobYdzYpf|xopiistoriplobYdzipf|xopiistoriplobYtsYpf|xopiistoriplobYtsipf|xopiistoriplobadzYpf|xopiistoriplobadzipf|xopiistoriplobatsYpf|xopiistoriplobatsibw|xopiistoriplobatsipf|xopiistoriplobodzYpf|xopiistoriplobodzipf|xopiistoriplobotsYpf|xopiistoriplobotsibw|xopiistoriplobotsipf|xopiistoriplubatsipf|xopiistoriplubotsipf|xopiisturiplobatsipf|xopiisturiplobotsipf|xopiisturiplubatsipf|xopiisturiplubotsipf|xopistorYplYbadzYpf|xopistorYplYbadzipf|xopistorYplYbatsYpf|xopistorYplYbatsipf|xopistorYplobYdzYpf|xopistorYplobYdzipf|xopistorYplobYtsYpf|xopistorYplobYtsipf|xopistorYplobadzYpf|xopistorYplobadzipf|xopistorYplobatsYpf|xopistorYplobatsipf|xopistorYplobodzYpf|xopistorYplobodzipf|xopistorYplobotsYpf|xopistorYplobotsipf|xopistoriplYbYdzYpf|xopistoriplYbYdzipf|xopistoriplYbYtsYpf|xopistoriplYbYtsipf|xopistoriplYbadzYpf|xopistoriplYbadzipf|xopistoriplYbatsYpf|xopistoriplYbatsipf|xopistoriplYbodzYpf|xopistoriplYbodzipf|xopistoriplYbotsYpf|xopistoriplYbotsipf|xopistoriplobYdzYpf|xopistoriplobYdzipf|xopistoriplobYtsYpf|xopistoriplobYtsipf|xopistoriplobadzYpf|xopistoriplobadzipf|xopistoriplobatsYpf|xopistoriplobatsipf|xopistoriplobodzYpf|xopistoriplobodzipf|xopistoriplobotsYpf|xopistoriplobotsipf|xopistoriplubatsipf|xopistoriplubotsipf|xopisturiplobatsipf|xopisturiplobotsipf|xopisturiplubatsipf|xopisturiplubotsipf
+CLIENT
+++++++
+spstrplbdzpf|tspstrplbdzbw|tspstrplbdzpf|tspstrplptsbw|tspstrplptspf|xpstrplbdzbw|xpstrplbdzpf|xpstrplptsbw|xpstrplptspf
+
+
+
+WITHOUT VOWELS
+---------------
+The Average score is : 0.931313318522524

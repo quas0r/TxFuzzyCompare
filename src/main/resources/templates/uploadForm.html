@@ -1,0 +1,96 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<style>
+div.round1 {
+    border: 5px solid #000066;
+    border-radius: 15px;
+    width:500px;
+   	position: absolute;
+	top:50%;
+  	left:50%;
+  	padding:15px;
+  	-ms-transform: translateX(-50%) translateY(-50%);
+  	-webkit-transform: translate(-50%,-50%);
+  	transform: translate(-50%,-50%);
+}
+.button {
+	background-color: #000066; /* Tutuka Blue */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.1s; /* Safari */
+	transition-duration: 0.1s;
+}
+.button2:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0
+		rgba(0, 0, 0, 0.19);
+}
+</style>
+</head>
+<body bgcolor="#edf2f9">
+
+	<div style="text-align: center">
+		<img
+			src="https://www.filepicker.io/api/file/hibz8xh4QZXOsVQ243tg/convert?"
+			width="600" align="middle"></img>
+	</div>
+	<br />
+	<br />
+	<div>
+		<form method="POST" enctype="multipart/form-data" action="/app/upload"
+			th:object="${fileLoader}" align="middle">
+			<br />
+<div class="round1">
+			<div>
+				<h3>Upload TUTUKA Transaction CSV file</h3>
+				<div>
+					<input type="file" th:field="*{fileOne}" name="File1"
+						required="required" accept=".csv" 
+						 />
+				</div>
+			</div>
+			<div>
+				<h3>Upload CLIENT Transaction CSV file</h3>
+				<div>
+					<input type="file" th:field="*{fileTwo}" name="File2" 
+						required="required"	accept=".csv"
+						/>
+				</div>
+				<br/><br/>
+				<div>
+					<button type="submit" name="action" class="button button2"
+						value="UploadAndCompare">COMPARE
+					</button>
+				</div>
+			</div>
+</div>
+		</form>
+	</div>
+	<div>
+		<form method="POST" enctype="multipart/form-data" action="/demo"
+			th:object="${fileLoader}" align="middle">
+	</form>
+	</div>
+	<div>
+		<ul>
+			<li th:each="file : ${files}"><a th:href="${file}"
+				th:text="${file}"></a></li>
+		</ul>
+	</div>
+	<script>
+$('#button').click(function () {
+    $("input[type='file']").trigger('click');
+})
+
+$("input[type='file']").change(function () {
+    $('#val').text(this.value.replace(/C:\\fakepath\\/i, ''))
+})
+</script>
+</body>
+</html>

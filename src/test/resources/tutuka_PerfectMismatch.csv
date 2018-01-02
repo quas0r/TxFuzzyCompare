@@ -1,0 +1,2 @@
+ProfileName,TransactionDate,TransactionAmount,TransactionNarrative,TransactionDescription,TransactionID,TransactionType,WalletReference
+MISMATCH,1999-01-12 10:17:29,-9999,*MISMATCH NARRATIVE,DEDUCT,0584012370494730,8,MISMATCH_WRef,
