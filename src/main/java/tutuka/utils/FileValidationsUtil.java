@@ -39,7 +39,7 @@ public class FileValidationsUtil {
 	            String[] headerColumns = header.split(",");
 	            Arrays.sort(validHeaderColumns);
 	            Arrays.sort(headerColumns);
-	            if(!Arrays.equals(validHeaderColumns, headerColumns)) {
+	            if(Arrays.asList(headerColumns).contains(Arrays.asList(validHeaderColumns))){
 	            	logger.error("The File "+fileName+" contains INVALID or NO Headers.");
 	            	throw new InvalidHeaderException("The File "+fileName+" contains INVALID or NO Headers.");
 	            }

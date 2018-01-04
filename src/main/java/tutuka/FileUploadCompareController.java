@@ -53,10 +53,10 @@ public class FileUploadCompareController {
     @GetMapping("/upload")
     public ModelAndView listUploadedFiles(Model model) throws IOException {
     	logger.info("Inside upload Get Method");
-        model.addAttribute("files", storageService.loadAll().map(
+ /*       model.addAttribute("files", storageService.loadAll().map(
                 path -> MvcUriComponentsBuilder.fromMethodName(FileUploadCompareController.class,
                         "serveFile", path.getFileName().toString().substring(path.getFileName().toString().lastIndexOf("\\")+1)).build().toString())
-                .collect(Collectors.toList()));
+                .collect(Collectors.toList()));*/
 	    ModelAndView mav = new ModelAndView();
 	    mav.setViewName("uploadForm");
 	    mav.addObject("fileLoader", new FileLoader());

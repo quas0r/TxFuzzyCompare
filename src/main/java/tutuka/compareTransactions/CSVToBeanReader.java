@@ -38,7 +38,7 @@ public class CSVToBeanReader {
 	private int WRefIndex;
 
 	StopWordsUtils util = new StopWordsUtils();
-	DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+	DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd H:mm:ss");
 	private final Logger logger = LoggerFactory.getLogger(this.getClass());
 	LocalDateTime transactionDate = null;
 	Pattern pattern = Pattern.compile(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
